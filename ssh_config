@@ -1,0 +1,13 @@
+Host domain-name.com
+  Port 2222
+  PreferredAuthentications publickey
+# CAEN
+Host caen
+  HostName login.engin.umich.edu
+  User jbseg
+  Compression yes
+# UMich GitLab
+Host gitlab
+  HostName gitlab.com
+  User git
+  IdentityFile ~/.ssh/gitlab_rsa
